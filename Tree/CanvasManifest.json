@@ -116,7 +116,6 @@
     "FileID": "c3c865cc-2287-4706-8b16-a52e5f937b50",
     "Id": "c3c865cc-2287-4706-8b16-a52e5f937b50",
     "InstrumentationKey": "",
-    "LocalDatabaseReferences": "",
     "ManualOfflineProfileId": "",
     "Name": "Sudoku Game",
     "OriginatingVersion": "1.330",
@@ -135,6 +134,7 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
-    "MainScreen"
+    "MainScreen",
+    "Screen1"
   ]
 }

@@ -65,6 +65,21 @@
     "Name": "groupContainer",
     "Version": "1.0"
   },
+  "Header": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/powercontrol/Header",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": true,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "Header",
+    "OverridableProperties": {},
+    "TemplateDisplayName": "Header",
+    "Version": "0.0.29"
+  },
   "Host": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,
@@ -135,6 +150,21 @@
     "Name": "label",
     "OverridableProperties": {},
     "Version": "2.5.1"
+  },
+  "LinearInputControl": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": false,
+    "Id": "http://microsoft.com/appmagic/powercontrol/contoso_ContosoNamespace.LinearInputControl",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": true,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "contoso_ContosoNamespace.LinearInputControl",
+    "OverridableProperties": {},
+    "TemplateDisplayName": "LinearInputControl",
+    "Version": "0.0.1"
   },
   "rectangle": {
     "CustomGroupControlTemplateName": "",

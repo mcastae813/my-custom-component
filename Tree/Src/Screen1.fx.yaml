@@ -1,0 +1,25 @@
+Screen1 As screen:
+
+    Header1 As Header:
+        DisplayMode: =DisplayMode.Edit
+        Height: =75
+        OnSelectLogo: =false
+        Title: =App.ActiveScreen.Name
+        UserEmail: =User().Email
+        UserImage: =User().Image
+        UserName: =User().FullName
+        Width: =Parent.Width
+        X: =0
+        Y: =0
+        ZIndex: =1
+
+    LinearInputControl1 As LinearInputControl:
+        controlValue: =23
+        DisplayMode: =DisplayMode.Edit
+        Height: =238
+        TabIndex: =100
+        Width: =717
+        X: =96
+        Y: =180
+        ZIndex: =2
+
