@@ -9,11 +9,6 @@ export class LinearInputControl implements ComponentFramework.StandardControl<II
     {
 
     }
-    public refreshData(evt: Event): void {
-        this._value = this.inputElement.value as any as number;
-        this.labelElement.innerHTML = this.inputElement.value;
-        this._notifyOutputChanged();
-    }
     /**
      * Used to initialize the control instance. Controls can kick off remote server calls and other initialization actions here.
      * Data-set values are not initialized here, use updateView.
@@ -62,6 +57,12 @@ export class LinearInputControl implements ComponentFramework.StandardControl<II
         this._container.appendChild(this.inputElement);
         this._container.appendChild(this.labelElement);
         container.appendChild(this._container);
+}
+
+public refreshData(evt: Event): void {
+    this._value = this.inputElement.value as any as number;
+    this.labelElement.innerHTML = this.inputElement.value;
+    this._notifyOutputChanged();
 }
 
     /**
