@@ -1,4 +1,5 @@
 Screen1 As screen:
+    Fill: =Color.DarkGray
 
     Header1 As Header:
         DisplayMode: =DisplayMode.Edit
@@ -19,7 +20,7 @@ Screen1 As screen:
         Height: =238
         TabIndex: =100
         Width: =717
-        X: =96
-        Y: =180
+        X: =212
+        Y: =240
         ZIndex: =2
 
